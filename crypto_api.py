@@ -18,8 +18,7 @@ class Crypto(Resource):
         
         return jsonify(data)
     
-    
-    
+        
 
 api.add_resource(Crypto,'/top_10_coins')
 
